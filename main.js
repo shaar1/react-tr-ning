@@ -1,3 +1,4 @@
+/*
 const Dog = () => {
     return (
         <div>
@@ -23,3 +24,4 @@ const App = () => {
         </div>
     )
 }
+*/
