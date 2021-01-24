@@ -16,14 +16,14 @@ const items = [
 function App() {
   return (
     <div>
-      <Cart items={items}/>
+      <Cart items={items} />
       <Counter />
       <Navbar />
       <Greeter name="Karen" />
       <Greeter name="Tammy" />
 
-         <h1>HELLO FROM APP!</h1>
-         
+      <h1>HELLO FROM APP!</h1>
+
     </div>
 
   );

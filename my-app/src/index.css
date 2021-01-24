@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
-</style>
-
-
-body {
+</style>body {
   margin: 30px;
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
@@ -11,6 +8,5 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
