@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CartItem from "./CartItem";
+import "./Cart.css";
 
 function Cart({ items }) {
 
@@ -21,13 +22,13 @@ function Cart({ items }) {
 
     return (
         <div className="Cart">
-            <h1> I AM CART</h1>
-            <div className="CartItem">
+            <h1 className="Cart-title"> Shopping CART</h1>
+            <div className="Cart-items">
                 {items.map(item => (
                     <CartItem key={item.id} updateQty={updateQty} {...item} />
                 ))}
             </div>
-            <h3>Grand Total: ${grandTotal}</h3>
+            <h3 className="Cart-total">Grand Total: ${grandTotal}</h3>
         </div>
     )
 }
